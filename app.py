@@ -16,7 +16,7 @@ client = pymongo.MongoClient("mongodb+srv://Mind:Mindiola97_@cluster0.ul2xebu.mo
 db = client.test
 
 baseDatos = client["DB-Votaciones"] 
-print(baseDatos.list_collection_names())
+# print(baseDatos.list_collection_names())
 
 @app.route('/')
 def home():
