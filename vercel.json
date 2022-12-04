@@ -1,0 +1,15 @@
+{ 
+    "versión": 2, 
+    "compilaciones": [ 
+        { 
+            "src": "./app.py", 
+            "use": "@vercel/python" 
+        } 
+    ], 
+    "rutas": [ 
+        { 
+            "src": "/ (.*)", 
+            "destino": "/" 
+        } 
+    ] 
+}
